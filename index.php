@@ -142,7 +142,21 @@
         </div>
       </div>
     </section>
-    <section class="cart-section">
+    
+
+
+
+
+
+    <section id="large-cards">
+      <button data-modal-target="#modal">Open Modal</button>
+      <div class="modal" id="modal">
+        <div class="modal-header">
+          <div class="title">Example Modal</div>
+          <div data-close-button class="close-button">&times;</div>
+        </div>
+        <div class="modal-body">
+        <section class="cart-section">
       <h2 class="cart-section-header">CART</h2>
       <div class="cart-items-header">
             <span class="cart-item cart-header cart-column">ITEM</span>
@@ -171,7 +185,7 @@
           <button class="btn btn-danger" type="button">REMOVE</div>
       </div>-->
       <div class="cart-items"></div>
-      </div>
+    </div>
       <div class="cart-total">
         <strong class="cart-total-title">Total</strong>
         <span class="cart-total-price">$0</span>
@@ -180,20 +194,9 @@
         PURCHASE
       </button>
     </section>
-
-    <section id="large-cards">
-      <button data-modal-target="#modal">Open Modal</button>
-      <div class="modal" id="modal">
-        <div class="modal-header">
-          <div class="title">Example Modal</div>
-          <div data-close-button class="close-button">&times;</div>
-        </div>
-        <div class="modal-body">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsum asperiores laboriosam placeat aut saepe, voluptates neque harum. Dignissimos iure dolor sint cupiditate maxime assumenda earum eligendi doloremque voluptates praesentium!
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ipsum asperiores laboriosam placeat aut saepe, voluptates neque harum. Dignissimos iure dolor sint cupiditate maxime assumenda earum eligendi doloremque voluptates praesentium!
         </div>
       </div>
-      <div id="modal-overlay"></div>
+      <div id="overlay"></div>
      </section>
   </body>
 </html>
