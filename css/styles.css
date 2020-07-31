@@ -396,69 +396,78 @@ CART SECTION
 
 .cart-section {
     /*width: 80vw;*/
-   /* width: 600px;*/
-    max-width: 40vw;
+   /* width: 600px;
+    max-width: 40vw;*/
 
    /* max-width: 1170px;*/
     max-height: 80vh;
     /*margin: 15vh auto ;*/
     padding: 5px;
     border-radius: 3px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+   /* overflow-y: scroll;
+    overflow-x: hidden;*/
 }
 
 .cart-section-header {
     width: 100%;
     height: auto;
+    padding: 10px;
     border-bottom: 10px solid black;
-    margin: 0 auto;
-    padding-top: 5px;
-    /*margin-top: 10vh;*/
     background: #fff;
     text-align: center;
 }
 
 .cart-items-header {
   display: flex;
+  width: 100%;
   justify-content: space-around;
   padding: .5rem 0;
   color: #fff;
   background: var(--accent-color);
 }
-.cart-item-item {
-
-}
 
 .cart-row {
   display: flex;
+  border-bottom: 1px solid black;
+  margin-top: 1rem;
 }
 
 .cart-price-container {
   margin-top: 2.5rem;
+  width: 20%;
 }
 
-.cart-items {
-
+.cart-price-title {
+  width: 25%;
 }
 
-.cart-item-image {
-
+.cart-quantity-title {
+  width: 20%;
 }
 
 .cart-item-title {
-  padding-left: 10%;
+  padding-left: 25px;
+  width: 55%;
+}
+
+.cart-item {
   margin-top: 2.5rem;
-  width: 36%;
+  width: 35.5%;
+  padding: 0 10px;
+}
+
+.cart-item-image {
+  margin-top: 0;
+  /*width: 100%;*/
 }
 
 .cart-image-container {
   width: 100%;
 }
 
-  .cart-row:nth-child(odd) {
+  /*.cart-row:nth-child(odd) {
     background: lightgrey;
-  }
+  }*/
 
   .cart-quantity {
 
@@ -474,16 +483,18 @@ CART SECTION
     padding: 0;
     text-align: center;
     font-size: 1.2em;
-    margin-right: 25px;
+    /*margin-right: 25px;*/
   }
 
   .cart-quantity-container {
-    padding-left: 30%;
     margin-top: 2.5rem;
+    width: 20%;
+    text-align: center;
   }
 
   .btn-danger-container {
-    margin-top: 2.5rem;
+    margin-top: 2.75rem;
+    margin-right: .5rem;
   }
   
   .cart-row:last-child .cart-column {
@@ -491,13 +502,12 @@ CART SECTION
   }
   
   .cart-total {
-    width: 20%;
-    text-align: center;
-    border-bottom: 5px solid black;
+    width: 100%;
+    text-align: left;
     background-color: #fff;
     position: relative;
-    left: 34%;
-    margin-top: 2.5rem;
+    margin-top: .5rem;
+    padding-bottom: 1.5rem;
 
   }
   
@@ -505,20 +515,21 @@ CART SECTION
     font-weight: bold;
     font-size: 1.2em;
     color: black;
-    margin-right: 20px;
+    margin-left: 68%;
+    padding-right: 10px;
   }
   
   .cart-total-price {
     color: #333;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    border-bottom: 2px solid black;
   }
   
   .btn-purchase {
     display: block;
     border-radius: 3px;
     position: relative;
-    left: 80%;
-    margin-top: -1.5rem;
+    top: 1.2rem;
   }
 
   .btn-purchase button {
@@ -542,7 +553,13 @@ CART SECTION
     z-index: 100;
     background-color: #fff;
     width: 600px;
-    max-width: 40vw;
+    max-width: 60vw;
+  }
+
+  .cart-titles-wrapper {
+    position: fixed;
+    width: 91%;
+    top: 0;
   }
 
   .modal.active {
@@ -550,12 +567,19 @@ CART SECTION
   }
   .modal-header {
     padding: 10px 15px;
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
+    max-height: 90vh;
+    overflow-y: scroll;
   }
 
+  /******************************************/
+
+  .closeBtn-container {
+    display: flex;
+  }
   .modal-header .title {
     font-size:1.25rem;
     font-weight: bold;
@@ -565,13 +589,25 @@ CART SECTION
     cursor: pointer;
     border: none;
     outline: none;
-    background: none;
-    font-size: 1.25rem;
+    background: var(--accent-color);
+    height: 25px;
+    margin-top: 1rem;
+    height: 25px;
+    font-size: 15px;
+    left: 93%;
     font-weight: bold;
+    color: #fff;
+    position: absolute;
+    width: 19px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .modal-body {
     padding: 10px 15px;
+    margin-top: 50px;
   }
 
   #overlay {
@@ -617,6 +653,7 @@ CART SECTION
 
     .cart-items {
       width: 90%;
+      /*margin-top: 1rem;*/
     }
 
     .cart-item {
