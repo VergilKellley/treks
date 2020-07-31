@@ -26,8 +26,8 @@
           <a id="nav-logo" href="index.php">t-reks</a>
           <ul>
             <li><a href="index.php">home</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Contact</a></li>
+            <!--<li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>-->
             <div id="login-SignUp-Inputs">
             <?php
           if (isset($_SESSION['userId'])) {
@@ -53,7 +53,7 @@
                   
                 
                 />
-                <button class="btn" type="submit" name="login-submit" onclick="clearForm()" >Login</button>
+                <button class="loginBtn" type="submit" name="login-submit" onclick="clearForm()" >Login</button>
                 <a href="signup.php">Sign Up</a>
               </form>';
           }
