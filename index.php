@@ -149,11 +149,10 @@
 
 
     <section id="large-cards">
-      <button data-modal-target="#modal">Open Modal</button>
+      <button class="modalBtn" data-modal-target="#modal"><img src="images/shoppingCart.png"></button>
       <div class="modal" id="modal">
         <div class="modal-header">
       <div class="cart-titles-wrapper">
-          <!--<div class="title">Example Modal</div>-->
           <div class="closeBtn-container">
           <h2 class="cart-section-header">CART</h2>
           <div data-close-button class="close-button">&times;</div>
