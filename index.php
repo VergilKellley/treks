@@ -152,52 +152,38 @@
       <button data-modal-target="#modal">Open Modal</button>
       <div class="modal" id="modal">
         <div class="modal-header">
-          <div class="title">Example Modal</div>
+      <div class="cart-titles-wrapper">
+          <!--<div class="title">Example Modal</div>-->
+          <div class="closeBtn-container">
+          <h2 class="cart-section-header">CART</h2>
           <div data-close-button class="close-button">&times;</div>
-        </div>
-        <div class="modal-body">
-        <section class="cart-section">
-      <h2 class="cart-section-header">CART</h2>
+          </div>
       <div class="cart-items-header">
-            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-item-title cart-header cart-column">ITEM</span>
         <span class="cart-price-title cart-header cart-column">PRICE</span>
         <span class="cart-quantity-title cart-header cart-column">QUANTITY</span>
       </div>
-      <div class="cart-items">
-        <!--<div class="cart-row">
-          <div class="cart-item cart-column">
-            <img class="cart-item-image" src="images/trek1.jpg" width="100" height="100">
-            <span class="cart-item-title">Mountain Trek</span>
-        </div>
-        <span class="cart-price cart-column">$899</span>
-        <div class="cart-quantity cart-column">
-          <input class="cart-quantity-input" type="number" value="1">
-          <button class="btn btn-danger" type="button">REMOVE</div>
-      </div>
-        <div class="cart-row">
-          <div class="cart-item cart-column">
-            <img class="cart-item-image" src="images/trek1.jpg" width="100" height="100">
-            <span class="cart-item-title">Mountain Trek</span>
-        </div>
-        <span class="cart-price cart-column">$899</span>
-        <div class="cart-quantity cart-column">
-          <input class="cart-quantity-input" type="number" value="1">
-          <button class="btn btn-danger" type="button">REMOVE</div>
-      </div>-->
+</div>
+          <!--<div data-close-button class="close-button">&times;</div>
+        </div>-->
+        <div class="modal-body">
+        <section class="cart-section">
+      
       <div class="cart-items"></div>
-    </div>
       <div class="cart-total">
-        <strong class="cart-total-title">Total</strong>
-        <span class="cart-total-price">$0</span>
-      </div>
       <button class="btn btn-primary btn-purchase" type="button">
         PURCHASE
       </button>
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>   
+      </div>
+      
     </section>
         </div>
       </div>
-      <div id="overlay"></div>
+      
      </section>
+     <div id="overlay"></div>
   </body>
 </html>
 
