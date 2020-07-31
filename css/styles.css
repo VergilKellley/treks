@@ -104,6 +104,19 @@ ul {
   color: var(--accent-color);
 }
 
+.loginBtn {
+  padding: 1px 5px 0px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 15px;
+  height: 25px;
+  background-color: var(--accent-color);
+  color: #fff;
+  transition: background-color 0.5s;
+
+}
+
 #login-form input {
   padding: 3px;
   width: 30%;
@@ -506,7 +519,7 @@ CART SECTION
     text-align: left;
     background-color: #fff;
     position: relative;
-    margin-top: .5rem;
+    margin-top: 1.5rem;
     padding-bottom: 1.5rem;
 
   }
@@ -560,6 +573,18 @@ CART SECTION
     position: fixed;
     width: 91%;
     top: 0;
+  }
+
+  .modalBtn {
+    position: fixed;
+    top: 3vh;
+    background-color: var(--accent-color);
+    right: 7vw;
+    z-index: 100;
+  }
+
+  .modalBtn:hover {
+    cursor: pointer;
   }
 
   .modal.active {
