@@ -2,8 +2,17 @@
   require 'header.php';
 ?>
     <section class="hero">
-      <div class="hero-overlay">HERO overlay</div>
-      <img src="images/bikeHero.jpg" alt="man riding bike" />
+    
+        <div class="header-images-container">
+        <h2 id="t-reks-waterMark">T-REKS</h2>
+          <div class="right-header-images-container">
+            <img class="header-images" src="images/bikeHero.jpg" alt="man riding  bike" />
+          </div>
+        <div class="left-header-images-container">
+        <div class="hero-overlay"></div>
+          <img class="header-images" src="images/bikeHero2.jpg" alt="man riding bike" />
+        </div>
+      </div>
       <div id="bikes-hero-text">
         <h2>bikes for everyone</h2>
         <p>Men Women Children Sport or Leisure!</p>
