@@ -6,7 +6,7 @@
 
 :root {
   /*--accent-color: rgb(233, 14, 149);*/
-  --accent-color: rgb(77, 77, 235);
+  --accent-color: #D19C4C;
   --mobile-font-h2: 
 }
 
@@ -27,7 +27,7 @@ NAVAGATION
   font-size: 2.3vw;
   text-transform: uppercase;
   font-weight: bolder;
-  color: var(--accent-color);
+  color: #D15A4C;
   text-decoration: none;
   font-style: italic;
   width: 9vw;
@@ -90,10 +90,11 @@ ul {
   padding: 3px 5px 0px;
   border: none;
   outline: none;
-  border-radius: 3px;
+  border-radius: 25px;
   font-size: 15px;
+  width: 25px;
   height: 25px;
-  background-color: var(--accent-color);
+  background-color: #D15A4C;
   color: #fff;
   transition: background-color 0.5s;
 }
@@ -111,7 +112,7 @@ ul {
   border-radius: 3px;
   font-size: 15px;
   height: 25px;
-  background-color: var(--accent-color);
+  background-color: #D15A4C;
   color: #fff;
   transition: background-color 0.5s;
 }
@@ -238,17 +239,16 @@ HERO
   margin-top: 1.5rem;
   font-size: 1.2rem;
   padding: 5px 10px;
-  background: #fff;
+  background: #D15A4C;
   border-radius: 50px;
-  color: var(--accent-color);
-  border: 1px solid #fff;
+  color: #fff;
   transition: background-color .5s;
 }
 
 #bikes-hero-text a:hover {
   cursor: pointer;
-  background-color: var(--accent-color);
-  color: #fff;
+  background-color: #fff;
+  color: #D15A4C;
 }
 
 /********************
@@ -272,17 +272,28 @@ Main Section
     position: relative;
     width: 100%;
     height: auto;
-    margin: 20px auto;
+    padding: 20px 20px;
+    background-color: var(--accent-color);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addTo-cartBtn-Container span {
+  color: #fff;
 }
 
 .btn-addToCart {
-    border-radius: 3px;
+    border-radius: 50px;
 }
 
 
 .bike-img-container img {
-  width: 280px;
-  height: 175px;
+ /* width: 100%;
+  display: block;
+  margin: 0 auto;*/
+  border-radius: 20px;
 }
 
 .bike-row-container {
@@ -297,6 +308,7 @@ Main Section
   grid-gap: 10px;
   grid-template-areas:
     "bike-row-header bike-row-header bike-row-header"
+    "bike-row-header2 bike-row-header2 bike-row-header2"
     "bike-img-container1 bike-img-container2 bike-img-container3"
     "bike-img-container4 bike-img-container5 bike-img-container6"
     "bike-img-container7 bike-img-container8 bike-img-container9";
@@ -310,14 +322,19 @@ Main Section
 
 .bike-row-header h2 {
   padding-bottom: .5rem;
+  color: #333;
+}
+
+#intro-text {
+  color: #333;
 }
 
 .bike-row-container p {
   grid-area: bike-row-header-p-text;
-  text-align: center;
+  text-align: left;
   font-size: 18px;
-  font: "Roboto, ariel, helvetica, sans-serif";
-  color: #313131;
+  font-family: "Roboto, ariel, helvetica, sans-serif";
+  color: #fff;
   line-height: 1.4;
 }
 
@@ -356,21 +373,21 @@ Main Section
 .bike-img-container {
   background-color: #fff;
   width: 100%;
-  padding: 20px;
-}
-
-.bike-img-container img {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
+  border-radius: 20px;
 }
 
 .bike-img-container p {
-  padding: 10px 0;
+  background-color: #D15A4C;
+  padding: 0px 10px;
 }
 
 .bike-img-container h2 {
   padding-top: 20px;
+}
+
+.bike-img-container h3 {
+  background-color: #D15A4C;
+  color: #fff;
 }
 
 .btn-addToCart:hover {
@@ -587,6 +604,7 @@ CART SECTION
     border-radius: 3px;
     position: relative;
     top: 1.2rem;
+    width: auto;
   }
 
   .btn-purchase button {
@@ -622,7 +640,7 @@ CART SECTION
   .modalBtn {
     position: fixed;
     top: 3vh;
-    background-color: var(--accent-color);
+    background-color: #D15A4C;
     right: 7vw;
     z-index: 100;
   }
@@ -662,13 +680,12 @@ CART SECTION
     height: 25px;
     margin-top: 1rem;
     height: 25px;
-    font-size: 15px;
+    width: 25px;
     left: 93%;
     font-weight: bold;
     color: #fff;
     position: absolute;
-    width: 19px;
-    border-radius: 3px;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
