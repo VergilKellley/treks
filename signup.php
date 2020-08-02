@@ -2,8 +2,8 @@
     require "header.php";
 ?>
 <section class="hero">
-      <div class="hero-overlay"></div>
-      <img src="images/bikeHero.jpg" alt="man riding bike" />
+      <!--<div class="hero-overlay"></div>-->
+      <img id="signUpHeroImage" src="images/bikeHero3.jpg" alt="man riding bike" />
       <div id="bikes-hero-text">
        <!--- <h2>bikes for everyone</h2>
         <p>Men Women Children Sport or Leisure!</p>-->
