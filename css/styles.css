@@ -38,7 +38,7 @@ NAVAGATION
   width: 100vw;
   height: 70px;
   background: #000;
-  z-index: 3;
+  z-index: 10;
 }
 
 .header-nav-container nav {
@@ -114,7 +114,12 @@ ul {
   background-color: var(--accent-color);
   color: #fff;
   transition: background-color 0.5s;
+}
 
+.loginBtn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--accent-color);
 }
 
 #login-form input {
@@ -144,8 +149,21 @@ ul {
 HERO
 ***************/
 .hero {
-  background-color: #2a2a2a;
+  position: relative;
+  background-color: #fff;
   width: 100vw;
+  height: 100vh;
+}
+
+#t-reks-waterMark {
+  position: absolute;
+  display: block;
+  font-size: 20vw;
+  width: 100vw;
+  color: rgba(0, 0, 0, .05);
+  top: 20%;
+  transform: rotate(-20deg);
+  z-index: 6;
 }
 #hero-img-text-container {
   margin-top: 70px;
@@ -154,24 +172,48 @@ HERO
 .hero-overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, .5);
-  z-index: 1;
-  width: 100vw;
-  height: 101vh;
-  margin-top: 12px;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
 }
 
-.hero img {
+.header-images-container {
+  position: relative;
   width: 100vw;
-  height: 90vh;
-  margin-top: 70px;
+  height: 100vh;
+  background-color: var(--accent-color);
+}
+
+.right-header-images-container {
+  position: absolute;
+  right: 0;
+  top: 70px;
+  width: 30%;
+  height: 75%;
+  z-index: 5;
+}
+
+.left-header-images-container{
+  position: absolute;
+  right: 25%;
+  bottom: 0;
+  width: 30%;
+  height: 75%;
+  z-index: 5;
+}
+
+.header-images {
+  width: 100%;
+  height: 100%;
 }
 
 #bikes-hero-text {
   position: absolute;
-  left: 50%;
+  left: 10%;
   top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+  transform: translateY(-50%);
+  z-index: 6;
+  color: #fff;
 }
 
 #bikes-hero-text h2 {
@@ -182,34 +224,31 @@ HERO
 }
 
 #bikes-hero-text p {
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-style: italic;
   font-weight: 600;
   color: #fff;
-  text-align: center;
   padding-top: 20px;
 }
 
 #bikes-hero-text a {
   position: relative;
   display: inline-block;
-  left: 50%;
   text-decoration: none;
-  transform:translateX(-50%);
-  margin-top: .5rem;
+  margin-top: 1.5rem;
   font-size: 1.2rem;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: var(--accent-color);
-  color: #fff;
-  border: none;
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 50px;
+  color: var(--accent-color);
+  border: 1px solid #fff;
   transition: background-color .5s;
 }
 
 #bikes-hero-text a:hover {
   cursor: pointer;
-  background-color: #fff;
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: #fff;
 }
 
 /********************
