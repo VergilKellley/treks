@@ -398,6 +398,11 @@ SIGNUP PAGE
   z-index: 2;
 }
 
+#signUpHeroImage {
+  width: 100vw;
+  height: 100vh;
+}
+
 .signup-form-wrapper {
   height: 100%;
   width: 100%;
