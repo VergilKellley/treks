@@ -783,6 +783,18 @@ CART SECTION
     opacity: 1;
     pointer-events: all;
   }
+
+   /********************************
+  MEDIA QUERY 1245PX
+  ********************************/
+
+  @media (max-width: 1245px) {
+    .bike-img-container img {
+      width: 70%;
+      height: 70%; 
+    }
+  }
+
   /********************************
   MEDIA QUERY 1023PX
   ********************************/
@@ -878,6 +890,11 @@ CART SECTION
     .cart-row {
       justify-content: space-around;
     }
+
+    .modalBtn img {
+      width: 20px;
+      height: 20px;
+    }
   }
 
   /********************************
@@ -888,11 +905,33 @@ CART SECTION
    
     .cart-total {
       margin-left: 63%;
-      width: 25vw;
+      width: 15vw;
       text-align: center;
     }
   }
 
+  /********************************
+  MEDIA QUERY 700PX
+  ********************************/
+  @media (max-width: 600px) {
+    .bike-row-container {
+      grid-template-columns: 90%;
+      grid-template-rows: 8% auto;
+      grid-gap: 10px;
+      grid-template-areas:
+        "bike-row-header"
+        "bike-img-container1"
+        "bike-img-container2"
+        "bike-img-container3"
+        "bike-img-container4"
+        "bike-img-container5"
+        "bike-img-container6"
+        "bike-img-container7" 
+        "bike-img-container8";
+    }
+
+
+  }
   
 /******************
 FOOTER
