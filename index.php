@@ -4,7 +4,7 @@
     <section class="hero">
     
         <div class="header-images-container">
-        <h2 id="t-reks-waterMark">T-REKS</h2>
+        <h2 id="t-reks-waterMark">T-RECS</h2>
           <div class="right-header-images-container">
             <img class="header-images" src="images/bikeHero.jpg" alt="man riding  bike" />
           </div>
@@ -18,20 +18,36 @@
         <p>Men Women Children Sport or Leisure!</p>
         <a href="#bikes">Search Bikes</a>
       </div>
+      <div id='backgroundImage'></div>
+      <!--<div id='bikeTextSection'>
+      
+        <div class="bike3-container">
+          <img class='bike3' src="images/bikingTrails.jpg" alt="mountain bike">
+          <img class='bike4' src="images/twoPeopleBiking.jpg" alt="mountain bike">
+        </div>
+        <div class="bike5-container">
+          <img class='bike5' src="images/cityBike.jpg" alt="mountain bike">
+        </div>
+      </div>-->
     </section>
-    <div id="bikes"></div>
-    <section  class="main-section">
-     <div class="bike-row-container">
-       <div class="bike-row-header">
-          <h2>Buy T-REKS</h2>
+    <div class='bikeTextImage'>
+      <div id='backgroundImgOverlay'></div>
+    <div class="bike-row-header">
+          <h2>We're #1</h2>
           <p id='intro-text'>
-            T-reks is the world leader in mountain bike technology. No surprise that
+            T-RECS is the world leader in mountain bike technology. No surprise that
             our mountain bikes are the most technologically advanced on the
             market. Here, innovations are not limited to only the highest-end MTB
-            models. Every T-reks mountain bike is loaded with features and details
+            models. Every T-RECS mountain bike is loaded with features and details
             that will make any ride, on any trail, better.
           </p>
-        </div>
+    </div>
+    <div id="bikes"></div>
+    </div>
+    
+    <section  class="main-section">
+     <div class="bike-row-container">
+       
         <div class="bike-img-container bike-img-container1">
           <img class="cart-item-img" src="images/trek1.jpg" alt="bike" />
           <h2 class="item-title">City</h2>
