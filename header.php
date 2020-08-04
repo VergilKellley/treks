@@ -23,7 +23,7 @@
     <header>
       <section class="header-nav-container">
         <nav>
-          <a id="nav-logo" href="index.php">t-reks</a>
+          <a id="nav-logo" href="index.php">t-recs</a>
           <ul>
             <li><a href="index.php">home</a></li>
             <!--<li><a href="">News</a></li>
