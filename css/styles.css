@@ -256,10 +256,11 @@ Main Section
 ********************/
 
 .main-section {
-  /*position: relative;*/
+  position: relative;
   min-height: 1200px;
-  margin-top: 15vh;
   padding-bottom: 20vh;
+  margin-bottom: 30vh;
+
 }
 
 .bike-img-container {
@@ -308,25 +309,95 @@ Main Section
   grid-gap: 10px;
   grid-template-areas:
     "bike-row-header bike-row-header bike-row-header"
-    "bike-row-header2 bike-row-header2 bike-row-header2"
     "bike-img-container1 bike-img-container2 bike-img-container3"
     "bike-img-container4 bike-img-container5 bike-img-container6"
     "bike-img-container7 bike-img-container8 bike-img-container9";
 }
 
+#bikeTextSection {
+  position: relative;
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#backgroundImage {
+  background-attachment: fixed;
+  background-image: url('../images/bike6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bike3-container {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  right: 0;
+}
+
+.bike3-container .bike3 {
+  position: absolute;
+  height: 82.5%;
+  right: 0;
+  top: 5%;
+}
+
+.bike3-container .bike4 {
+  position: absolute;
+  top: 90%;
+  height: 82.5%;
+  right: 0;
+}
+
+.bike5-container {
+  position: absolute;
+  width: 40vw;
+  height: 100vh;
+  left: 0;
+}
+
+.bike5-container .bike5 {
+  position: absolute;
+  top: 10%;
+  height: 42.5%;
+  left: 0;
+}
+
+.bikeTextImage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
 .bike-row-header {
-  grid-area: bike-row-header;
-  text-align: center;
-  margin-bottom: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  color: #fff;
+  z-index: 3;
+  width: 60vw;
 }
 
 .bike-row-header h2 {
   padding-bottom: .5rem;
-  color: #333;
+  font-size: 4em;
+  text-align: left;
 }
 
 #intro-text {
-  color: #333;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+#backgroundImgOverlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .6);
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
 }
 
 .bike-row-container p {
