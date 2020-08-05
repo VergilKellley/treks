@@ -156,7 +156,7 @@ HERO
   height: 100vh;
 }
 
-#t-reks-waterMark {
+#t-recs-waterMark {
   position: absolute;
   display: block;
   font-size: 20vw;
@@ -895,7 +895,44 @@ CART SECTION
       width: 20px;
       height: 20px;
     }
+
+    #t-recs-waterMark {
+      transform: rotate(-30deg);
+    }
   }
+
+  /********************************
+  MEDIA QUERY 860PX
+  ********************************/
+@media (max-width: 860px) {
+
+  #t-recs-waterMark {
+    display: none;
+  }
+
+  .right-header-images-container {
+      display: none;  
+    }
+
+    #bikes-hero-text h2 {
+      font-size: 5.5vw;
+    }
+
+    #bikes-hero-text p {
+      font-size: 3vw;
+    }
+
+  .left-header-images-container {
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+  }
+
+  .left-header-images-container img {
+    width: 100%;
+    height: 100%;
+  }
+}
 
   /********************************
   MEDIA QUERY 715PX
@@ -941,6 +978,7 @@ footer {
   bottom: 0 !important;
   width: 100vw;
   height: 35vh;
+  margin-top:300px;
   background: #2a2a2a;
 }
 
