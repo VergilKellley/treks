@@ -4,7 +4,7 @@
     <section class="hero">
     
         <div class="header-images-container">
-        <h2 id="t-reks-waterMark">T-RECS</h2>
+        <h2 id="t-recs-waterMark">T-RECS</h2>
           <div class="right-header-images-container">
             <img class="header-images" src="images/bikeHero.jpg" alt="man riding  bike" />
           </div>
