@@ -23,7 +23,8 @@ body {
 NAVAGATION
 ***************/
 #nav-logo {
-  padding-top: 17px;
+  position: relative;
+  left: 7%;
   font-size: 2.3vw;
   text-transform: uppercase;
   font-weight: bolder;
@@ -35,28 +36,19 @@ NAVAGATION
 
 .header-nav-container {
   position: fixed;
-  width: 100vw;
   height: 70px;
   background: #000;
   z-index: 10;
-}
-
-.header-nav-container nav {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .header-nav-container,
 nav,
 ul {
   display: flex;
-}
-
-.header-nav-container nav ul {
-  position: relative;
-  left: 40%;
-  transform: translateX(-40%);
-  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .header-nav-container nav ul li {
@@ -67,10 +59,17 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  margin-top: 10px;
   font-size: 1.2vw;
   padding: 10px;
   color: #fff;
+  margin-left: 9vw;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
 }
 
 #login-form a {
@@ -129,6 +128,9 @@ ul {
 }
 #login-SignUp-Inputs {
   margin: 17px 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
 }
 
 #login-SignUp-Inputs form p {
@@ -710,10 +712,13 @@ CART SECTION
 
   .modalBtn {
     position: fixed;
-    top: 3vh;
+    top: 3.3%;
+    right: 7%;
+    display: flex;
     background-color: #D15A4C;
-    right: 7vw;
-    z-index: 100;
+    padding: 3px;
+    border: none;
+    z-index: 10;
   }
 
   .modalBtn:hover {
