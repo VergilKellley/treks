@@ -125,6 +125,7 @@ ul {
 #login-form input {
   padding: 3px;
   width: 30%;
+  margin-right: 10px;
 }
 #login-SignUp-Inputs {
   margin: 17px 40px;
@@ -257,6 +258,33 @@ HERO
 Main Section
 ********************/
 
+#comingSoonText {
+  width: 80vw;
+  margin: 5vh auto;
+}
+
+#comingSoonText h2 {
+  text-align: center;
+  font-size: 3.2em;
+  margin-top: 100px;
+}
+#threeImageContainer {
+  position: relative;
+  display: flex;
+  top: 5vh;
+  width: 80vw;
+  justify-content: center;
+  margin: 0 auto;
+  height: 400px;
+}
+
+.threeImagesImg {
+  text-align: center;
+}
+
+#threeImageContainer img {
+  margin: 10px;
+}
 .main-section {
   position: relative;
   min-height: 1200px;
@@ -302,6 +330,8 @@ Main Section
 .bike-row-container {
   display: grid;
   width: 86vw;
+  position: relative;
+  top: 600px;
   max-width: 1500px;
   height: auto;
   margin: 0 auto;
