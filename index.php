@@ -19,16 +19,25 @@
         <a href="#bikes">Search Bikes</a>
       </div>
       <div id='backgroundImage'></div>
-      <!--<div id='bikeTextSection'>
-      
-        <div class="bike3-container">
-          <img class='bike3' src="images/bikingTrails.jpg" alt="mountain bike">
-          <img class='bike4' src="images/twoPeopleBiking.jpg" alt="mountain bike">
+     <section>
+       <div id='comingSoonText'>
+        <h2>Coming Soon</h2>
+      </div>
+       <div id='threeImageContainer'>
+         <div class='threeImagesImg'>
+          <img src="images/bike30.jpg" alt="mountain bike">
+          <h2>Wheel-Max</h2>
         </div>
-        <div class="bike5-container">
-          <img class='bike5' src="images/cityBike.jpg" alt="mountain bike">
+        <div class='threeImagesImg'>
+          <img src="images/bike31.jpg" alt="mountain bike">
+          <h2>Trail Blazer</h2>
         </div>
-      </div>-->
+        <div class='threeImagesImg'>
+          <img src="images/bike32.jpg" alt="mountain bike">
+          <h2>Smooth Rider</h2>
+        </div>
+       </div>
+     </section>
     </section>
     <div class='bikeTextImage'>
       <div id='backgroundImgOverlay'></div>
@@ -176,11 +185,6 @@
         </div>
       </div>
     </section>
-    
-
-
-
-
 
     <section id="large-cards">
       <button class="modalBtn" data-modal-target="#modal"><img src="images/shoppingCart.png"></button>
