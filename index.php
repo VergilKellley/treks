@@ -18,12 +18,15 @@
         <p>Men Women Children Sport or Leisure!</p>
         <a href="#bikes">Search Bikes</a>
       </div>
-      <div id='backgroundImage'></div>
-     <section>
+    </section>
+
+    
        <div id='comingSoonText'>
         <h2>Coming Soon</h2>
+        <div id='comingSoonUnderline'></div>
       </div>
-       <div id='threeImageContainer'>
+
+      <div id='threeImagesContainer'>
          <div class='threeImagesImg'>
           <img src="images/bike30.jpg" alt="mountain bike">
           <h2>Wheel-Max</h2>
@@ -36,29 +39,14 @@
           <img src="images/bike32.jpg" alt="mountain bike">
           <h2>Smooth Rider</h2>
         </div>
-       </div>
-     </section>
-    </section>
-    <div class='bikeTextImage'>
-      <div id='backgroundImgOverlay'></div>
-    <div class="bike-row-header">
-          <h2>We're #1</h2>
-          <p id='intro-text'>
-            T-RECS is the world leader in mountain bike technology. No surprise that
-            our mountain bikes are the most technologically advanced on the
-            market. Here, innovations are not limited to only the highest-end MTB
-            models. Every T-RECS mountain bike is loaded with features and details
-            that will make any ride, on any trail, better.
-          </p>
-    </div>
-    <div id="bikes"></div>
-    </div>
+      </div>
+  
     
     <section  class="main-section">
      <div class="bike-row-container">
        
         <div class="bike-img-container bike-img-container1">
-          <img class="cart-item-img" src="images/trek1.jpg" alt="bike" />
+          <img class="cart-item-img" src="images/trek1.jpg" alt="bike"/>
           <h2 class="item-title">City</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
@@ -221,6 +209,27 @@
       
      </section>
      <div id="overlay"></div>
+
+     <div>
+    <div class='bikeTextImage'>
+      <div id='backgroundImgOverlay'></div>
+      <div id='backgroundImage'></div>
+    <div class="bike-row-header">
+          <h2>We're #1</h2>
+          <p id='intro-text'>
+            T-RECS is the world leader in mountain bike technology. No surprise that
+            our mountain bikes are the most technologically advanced on the
+            market. Here, innovations are not limited to only the highest-end MTB
+            models. Every T-RECS mountain bike is loaded with features and details
+            that will make any ride, on any trail, better.
+          </p>
+    </div>
+    <div id="bikes"></div>
+    </div>
+  </div>
+
+
+
   </body>
 </html>
 
