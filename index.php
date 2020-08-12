@@ -2,15 +2,14 @@
   require 'header.php';
 ?>
     <section class="hero">
-    
         <div class="header-images-container">
         <h2 id="t-recs-waterMark">T-RECS</h2>
-          <div class="right-header-images-container">
+          <!--<div class="right-header-images-container">
             <img class="header-images" src="images/bikeHero.jpg" alt="man riding  bike" />
-          </div>
+          </div>-->
         <div class="left-header-images-container">
         <div class="hero-overlay"></div>
-          <img class="header-images" src="images/bikeHero2.jpg" alt="man riding bike" />
+          <img class="header-images" src="images/t-recs1.png" alt="man riding bike" />
         </div>
       </div>
       <div id="bikes-hero-text">
@@ -18,6 +17,10 @@
         <p>Men Women Children Sport or Leisure!</p>
         <a href="#bikes">Search Bikes</a>
       </div>
+      <!--https://www.youtube.com/watch?v=3owx2vJHkv4-->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4cb373" fill-opacity="1" d="M0,192L60,170.7C120,149,240,107,360,80C480,53,600,43,720,74.7C840,107,960,181,1080,176C1200,171,1320,85,1380,42.7L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+      <div class="circle"></div>
+      <div class="circle2"></div>
     </section>
 
     
@@ -42,7 +45,7 @@
       </div>
   
       <div id='comingSoonText'>
-        <h2>In Stock</h2>
+        <h2>Featured Items</h2>
         <div id='comingSoonUnderline'></div>
       </div>
     <section  class="main-section">
@@ -97,7 +100,7 @@
           </div>
         </div>
         
-        <div class="bike-img-container bike-img-container5">
+        <!--<div class="bike-img-container bike-img-container5">
           <img class="cart-item-img" src="images/trek6.jpg" alt="bike" />
           <h2 class="item-title">Sport</h2>
           <p>
@@ -144,7 +147,7 @@
           <span>Add to cart</span>
             <button class="btn btn-addToCart">&times;</button>
           </div>
-        </div>
+        </div>-->
         <!--<div class="bike-img-container bike-img-container9">
           <img class="cart-item-img" src="images/trek6.jpg" alt="bike" />
           <h2 class="item-title">High-Line</h2>
@@ -164,36 +167,33 @@
       <button class="modalBtn" data-modal-target="#modal"><img src="images/shoppingCart.png"></button>
       <div class="modal" id="modal">
         <div class="modal-header">
-      <div class="cart-titles-wrapper">
-          <div class="closeBtn-container">
-          <h2 class="cart-section-header">CART</h2>
-          <div data-close-button class="close-button">&times;</div>
-          </div>
-      <div class="cart-items-header">
-            <span class="cart-item-title cart-header cart-column">ITEM</span>
-        <span class="cart-price-title cart-header cart-column">PRICE</span>
-        <span class="cart-quantity-title cart-header cart-column">QUANTITY</span>
-      </div>
-</div>
+	      <div class="cart-titles-wrapper">
+	          <div class="closeBtn-container">
+		          <h2 class="cart-section-header">CART</h2>
+		          <div data-close-button class="close-button">&times;</div>
+	          </div>
+		      <div class="cart-items-header">
+		            <span class="cart-item-title cart-header cart-column">ITEM</span>
+		        <span class="cart-price-title cart-header cart-column">PRICE</span>
+		        <span class="cart-quantity-title cart-header cart-column">QUANTITY</span>
+		      </div>
+		   </div>
           <!--<div data-close-button class="close-button">&times;</div>
         </div>-->
         <div class="modal-body">
-        <section class="cart-section">
-      
-      <div class="cart-items"></div>
-      <div class="cart-total">
-      <button class="btn btn-primary btn-purchase" type="button">
-        PURCHASE
-      </button>
-        <strong class="cart-total-title">Total</strong>
-        <span class="cart-total-price">$0</span>   
-      </div>
-      
-    </section>
+	        <section class="cart-section">
+		      <div class="cart-items"></div>
+		      <div class="cart-total">
+			      <button class="btn btn-primary btn-purchase" type="button">
+			        PURCHASE
+			      </button>
+			      <strong class="cart-total-title">Total</strong>
+			      <span class="cart-total-price">$0</span>   
+		      </div>
+	    	</section>
         </div>
-      </div>
-      
-     </section>
+      </div> 
+    </section>
      <div id="overlay"></div>
 
      <div>
