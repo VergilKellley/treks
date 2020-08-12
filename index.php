@@ -41,7 +41,10 @@
         </div>
       </div>
   
-    
+      <div id='comingSoonText'>
+        <h2>In Stock</h2>
+        <div id='comingSoonUnderline'></div>
+      </div>
     <section  class="main-section">
      <div class="bike-row-container">
        
@@ -49,9 +52,7 @@
           <img class="cart-item-img" src="images/trek1.jpg" alt="bike"/>
           <h2 class="item-title">City</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$599</h3>
           <div class="addTo-cartBtn-Container">
@@ -60,12 +61,10 @@
           </div>
         </div>
         <div class="bike-img-container bike-img-container2">
-          <img class="cart-item-img" src="images/trek3.jpg" alt="bike" />
+          <img class="cart-item-img" src="images/trek3Small.jpg" alt="bike" />
           <h2 class="item-title">Trail</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$799</h3>
           <div class="addTo-cartBtn-Container">
@@ -77,9 +76,7 @@
           <img class="cart-item-img" src="images/trek5.jpg" alt="bike" />
           <h2 class="item-title">Mountain</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$899</h3>
           <div class="addTo-cartBtn-Container">
@@ -91,9 +88,7 @@
           <img class="cart-item-img" class="item-image" src="images/trek6.jpg" alt="bike" />
           <h2 class="item-title">Leisuer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$999</h3>
           <div class="addTo-cartBtn-Container">
@@ -101,13 +96,12 @@
             <button class="btn btn-addToCart">&times;</button>
           </div>
         </div>
+        
         <div class="bike-img-container bike-img-container5">
           <img class="cart-item-img" src="images/trek6.jpg" alt="bike" />
           <h2 class="item-title">Sport</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$1299</h3>
           <div class="addTo-cartBtn-Container">
@@ -119,9 +113,7 @@
           <img class="cart-item-img" src="images/trek6.jpg" alt="bike" />
           <h2 class="item-title">Trac</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$1999</h3>
           <div class="addTo-cartBtn-Container">
@@ -133,9 +125,7 @@
           <img class="cart-item-img" src="images/trek6.jpg" alt="bike" />
           <h2 class="item-title">Mobile</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$2499</h3>
           <div class="addTo-cartBtn-Container">
@@ -147,9 +137,7 @@
           <img class="cart-item-img" src="images/trek6.jpg" alt="bike" />
           <h2 class="item-title">Paris</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$3999</h3>
           <div class="addTo-cartBtn-Container">
@@ -157,20 +145,18 @@
             <button class="btn btn-addToCart">&times;</button>
           </div>
         </div>
-        <div class="bike-img-container bike-img-container9">
+        <!--<div class="bike-img-container bike-img-container9">
           <img class="cart-item-img" src="images/trek6.jpg" alt="bike" />
           <h2 class="item-title">High-Line</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsa
-            ad, impedit beatae eligendi rem quaerat deleniti facilis omnis
-            obcaecati.
+            Lorem ipsum dolor
           </p>
           <h3 class="item-price">$9999</h3>
           <div class="addTo-cartBtn-Container">
             <span>Add to cart</span>
             <button class="btn btn-addToCart">&times;</button>
           </div>
-        </div>
+        </div>-->
       </div>
     </section>
 
@@ -227,7 +213,29 @@
     <div id="bikes"></div>
     </div>
   </div>
-
+  <div id="threeReviewsContainer">
+    <div class="threeReviews">
+      <img class='quotesImg' src="images/quote.png" alt=" large quotation marks">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quis consequuntur totam porro tempore earum.</p>
+      <img class='starsImg' src="images/5star.png" alt="5 star rating">
+      <img class='reviewsPhoto' src="images/person1.jpg" alt="">
+      <h3 class='photoName'>John Melbourn</h3>
+    </div>
+    <div class="threeReviews">
+    <img class='quotesImg' src="images/quote.png" alt=" large quotation marks">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quis consequuntur totam porro tempore earum.</p>
+      <img class='starsImg' src="images/5star.png" alt="5 star rating">
+      <img class='reviewsPhoto' src="images/person2.jpg" alt="">
+      <h3 class='photoName'>Melissa Byrd</h3>
+    </div>
+    <div class="threeReviews">
+      <img class='quotesImg' src="images/quote.png" alt=" large quotation marks">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quis consequuntur totam porro tempore earum.</p>
+        <img class='starsImg' src="images/5star.png" alt="5 star rating">
+        <img class='reviewsPhoto' src="images/person3.jpg" alt="">
+        <h3 class='photoName'>Mitchell Porter</h3>
+    </div>
+  </div>
 
 
   </body>
