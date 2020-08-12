@@ -6,12 +6,14 @@
 
 :root {
   /*--accent-color: rgb(233, 14, 149);*/
-  --accent-color: #D19C4C;
+  --main-color: #734cb3;
+  --accent-color: #4cb373;
+  --main-background-color: #ededed;
   --mobile-font-h2: 
 }
 
 body {
-  background-color: #ededed;
+  background-color: var(--main-background-color);
   overflow-x: hidden;
 }
 
@@ -28,7 +30,7 @@ NAVAGATION
   font-size: 2.3vw;
   text-transform: uppercase;
   font-weight: bolder;
-  color: #D15A4C;
+  color: var(--accent-color);
   text-decoration: none;
   font-style: italic;
   width: 9vw;
@@ -93,7 +95,7 @@ ul {
   font-size: 15px;
   width: 25px;
   height: 25px;
-  background-color: #D15A4C;
+  background-color: var(--main-color);
   color: #fff;
   transition: background-color 0.5s;
 }
@@ -111,7 +113,7 @@ ul {
   border-radius: 3px;
   font-size: 15px;
   height: 25px;
-  background-color: #D15A4C;
+  background-color: var(--main-color);
   color: #fff;
   transition: background-color 0.5s;
 }
@@ -162,23 +164,46 @@ HERO
 #t-recs-waterMark {
   position: absolute;
   display: block;
-  font-size: 20vw;
+  font-size: 27vw;
   width: 100vw;
   color: rgba(0, 0, 0, .05);
   top: 20%;
-  transform: rotate(-20deg);
+  transform: rotate(-30deg);
   z-index: 6;
 }
 #hero-img-text-container {
   margin-top: 70px;
 }
 
-.hero-overlay {
+/*.hero-overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, .5);
   z-index: 3;
   width: 100%;
   height: 100%;
+  border-radius: 30% 10% 30%;
+}*/
+
+.circle {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: -4%;
+  top: 1%;
+  background: var(--main-color);
+  z-index: 3;
+  clip-path: circle(50%);
+}
+
+.circle2 {
+  position: absolute;
+  height: 280px;
+  width: 280px;
+  right: -6%;
+  top: 75%;
+  background: var(--main-color);
+  z-index: 3;
+  clip-path: circle(50%);
 }
 
 .header-images-container {
@@ -199,16 +224,15 @@ HERO
 
 .left-header-images-container{
   position: absolute;
-  right: 25%;
+  right: 12%;
   bottom: 0;
-  width: 30%;
-  height: 75%;
   z-index: 5;
 }
 
 .header-images {
   width: 100%;
   height: 100%;
+  border-radius: 30% 10% 30%;
 }
 
 #bikes-hero-text {
@@ -242,16 +266,16 @@ HERO
   margin-top: 1.5rem;
   font-size: 1.2rem;
   padding: 5px 10px;
-  background: #D15A4C;
+  background: #fff;
   border-radius: 50px;
-  color: #fff;
+  color: var(--main-color);
   transition: background-color .5s;
 }
 
 #bikes-hero-text a:hover {
   cursor: pointer;
-  background-color: #fff;
-  color: #D15A4C;
+  background-color: var(--main-color);
+  color: #fff;
 }
 
 /********************
@@ -268,7 +292,7 @@ Main Section
 
 #comingSoonText h2 {
   font-size: 3.5vw;
-  margin-top: 100px;
+  margin-top: 200px;
   padding-bottom: 20px;
 }
 
@@ -494,7 +518,7 @@ Main Section
 }
 
 .bike-img-container p {
-  background-color: #D15A4C;
+  background-color: var(--main-color);
   padding:10px;
 }
 
@@ -503,7 +527,7 @@ Main Section
 }
 
 .bike-img-container h3 {
-  background-color: #D15A4C;
+  background-color: var(--main-color);
   color: #fff;
   padding: 0px 10px 10px 10px;
 }
@@ -514,6 +538,10 @@ Main Section
   border: 1px solid var(--accent-color);
   cursor: pointer;
 }
+
+/********************
+Review Cards
+********************/
 
 #threeReviewsContainer {
   position: relative;
@@ -537,7 +565,7 @@ Main Section
 .quotesImg {
   height: 75px;
   width: 75px;
-  padding: 10px;
+  padding: 20px 0 10px 0;
 }
 
 .starsImg {
@@ -553,11 +581,12 @@ Main Section
 }
 
 .photoName {
-  padding: 10px;
+  padding: 20px;
 }
 
 .threeReviews p {
   text-align: center;
+  padding: 10px;
 }
 /******************
 SIGNUP PAGE
@@ -803,7 +832,7 @@ CART SECTION
     top: 3.3%;
     right: 7%;
     display: flex;
-    background-color: #D15A4C;
+    background-color: var(--main-color);
     padding: 3px;
     border: none;
     z-index: 10;
@@ -845,7 +874,7 @@ CART SECTION
     margin-top: 1rem;
     height: 25px;
     width: 25px;
-    left: 93%;
+    left: 91%;
     font-weight: bold;
     color: #fff;
     position: absolute;
