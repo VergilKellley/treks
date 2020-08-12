@@ -285,7 +285,7 @@ Main Section
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
   top: 5vh;
-  width: 70vw;
+  width: 75vw;
   gap: 20px;
   margin: 0 auto  100px auto;
 }
@@ -299,7 +299,6 @@ Main Section
 }
 .main-section {
   position: relative;
-  min-height: 1200px;
   padding-bottom: 20vh;
   margin-bottom: 100px;
   margin-top: 100px;
@@ -309,7 +308,7 @@ Main Section
     position: relative;
     width: 100%;
     height: auto;
-    padding: 20px 20px;
+    padding: 10px 10px;
     background-color: var(--accent-color);
     display: flex;
     justify-content: space-between;
@@ -327,9 +326,8 @@ Main Section
 .bike-row-container {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  top: 5vh;
-  width: 70vw;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  width: 75vw;
   gap: 20px;
   margin: 0 auto;
 }
@@ -488,32 +486,79 @@ Main Section
   background-color: #fff;
   display: flex;
   flex-direction: column;
+}
 
+.bike-img-container img {
+  width: 220px;
+  height: 165x;
 }
 
 .bike-img-container p {
   background-color: #D15A4C;
-  padding:20px;
+  padding:10px;
 }
 
 .bike-img-container h2 {
-  padding: 20px;
+  padding: 10px;
 }
 
 .bike-img-container h3 {
   background-color: #D15A4C;
   color: #fff;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 10px 10px 10px;
 }
 
 .btn-addToCart:hover {
   background-color: #fff;
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
-
   cursor: pointer;
 }
 
+#threeReviewsContainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  top: 5vh;
+  width: 75vw;
+  gap: 20px;
+  margin: 100px auto  100px auto;
+}
+
+.threeReviews {
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.quotesImg {
+  height: 75px;
+  width: 75px;
+  padding: 10px;
+}
+
+.starsImg {
+  width: 100px;
+  height: 45px;
+  padding: 10px;
+}
+
+.reviewsPhoto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.photoName {
+  padding: 10px;
+}
+
+.threeReviews p {
+  text-align: center;
+}
 /******************
 SIGNUP PAGE
 ******************/
@@ -1026,7 +1071,7 @@ footer {
   bottom: 0 !important;
   width: 100vw;
   height: 35vh;
-  margin-top:700px;
+  margin-top:170px;
   background: #2a2a2a;
 }
 
