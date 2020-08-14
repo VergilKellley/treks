@@ -205,9 +205,11 @@
     <div class="middleBanner">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250"><path fill="#fe2001" fill-opacity="1" d="M0,64L80,74.7C160,85,320,107,480,106.7C640,107,800,85,960,74.7C1120,64,1280,64,1360,64L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
       <div class="middleBannerTextContainer">
-      <img src="images/helmet.png" alt="">
-      <h2>We're #1</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, debitis?</p>
+        <img src="images/manonbike.png" alt="">
+        <div class='bannertext'>
+          <h2>We're #1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus similique nesciunt ipsa a repudiandae voluptatem numquam quis, inventore rem molestias.</p>
+        </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 350"><path fill="#fe2001" fill-opacity="1" d="M0,64L80,74.7C160,85,320,107,480,106.7C640,107,800,85,960,74.7C1120,64,1280,64,1360,64L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
     </div>
