@@ -164,11 +164,11 @@ HERO
 #t-recs-waterMark {
   position: absolute;
   display: block;
-  font-size: 27vw;
+  font-size: 27.5vw;
   width: 100vw;
-  color: rgba(0, 0, 0, .05);
+  color: rgba(0, 0, 0, .03);
   top: 20%;
-  transform: rotate(-30deg);
+  transform: rotate(-15deg);
   z-index: 6;
 }
 #hero-img-text-container {
@@ -291,20 +291,20 @@ Main Section
 }
 
 .comingSoonText .comingSoon {
-  font-size: 3.5vw;
-  margin-top: 300px;
+  font-size: 1.5vw;
+  margin-top: 200px;
   padding-bottom: 20px;
 }
 
 .featuredItemsText {
-  font-size: 3.5vw;
+  font-size: 1.5vw;
   margin-top: 100px;
   padding-bottom: 20px;
 }
 
 .comingSoonUnderline {
   position: absolute;
-  width: 8vw;
+  width: 6vw;
   bottom: 0;
   border-bottom: 5px solid var(--accent-color);
 }
@@ -314,7 +314,7 @@ Main Section
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  top: 5vh;
+  top: 50px;
   width: 75vw;
   gap: 20px;
   margin: 0 auto  100px auto;
@@ -329,9 +329,8 @@ Main Section
 }
 .main-section {
   position: relative;
-  padding-bottom: 20vh;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  padding-bottom: 30vh;
+  margin-top: 50px;
 }
 
 .addTo-cartBtn-Container {
@@ -555,11 +554,18 @@ Middle Banner
 }
 .middleBannerTextContainer {
   position: absolute;
+  display: flex;
   background-color: var(--accent-color);
   width: 100vw;
+  height: 85px;
+  justify-content: center;
   text-align: center;
   margin-top: -80px;
   color: #fff;
+}
+
+.middleBanner p {
+  width: 475px;
 }
 
 .middleBannerTextContainer h2 {
@@ -567,7 +573,8 @@ Middle Banner
 }
 
 .middleBannerTextContainer img {
-  background: var(--accent-color);
+  width: 270px;
+  height: 270px;
 }
 
 
@@ -579,14 +586,12 @@ Review Cards
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  top: 5vh;
   width: 75vw;
   gap: 20px;
-  margin: 100px auto  100px auto;
+  margin: 0 auto  100px auto;
 }
 
 .threeReviews {
-  width: 23vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
