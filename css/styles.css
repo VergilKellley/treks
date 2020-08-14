@@ -6,8 +6,8 @@
 
 :root {
   /*--accent-color: rgb(233, 14, 149);*/
-  --main-color: #734cb3;
-  --accent-color: #4cb373;
+  --main-color: #2001fe;
+  --accent-color: #fe2001;
   --main-background-color: #ededed;
   --mobile-font-h2: 
 }
@@ -282,7 +282,7 @@ HERO
 Main Section
 ********************/
 
-#comingSoonText {
+.comingSoonText {
   position: relative;
   width: 85vw;
   margin: 0 auto;
@@ -290,13 +290,19 @@ Main Section
   justify-content: center;
 }
 
-#comingSoonText h2 {
+.comingSoonText .comingSoon {
   font-size: 3.5vw;
-  margin-top: 200px;
+  margin-top: 300px;
   padding-bottom: 20px;
 }
 
-#comingSoonUnderline {
+.featuredItemsText {
+  font-size: 3.5vw;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.comingSoonUnderline {
   position: absolute;
   width: 8vw;
   bottom: 0;
@@ -538,6 +544,32 @@ Main Section
   border: 1px solid var(--accent-color);
   cursor: pointer;
 }
+
+
+/*********************
+Middle Banner
+*********************/
+.middleBanner {
+  position: relative;
+  width: 100vw;
+}
+.middleBannerTextContainer {
+  position: absolute;
+  background-color: var(--accent-color);
+  width: 100vw;
+  text-align: center;
+  margin-top: -80px;
+  color: #fff;
+}
+
+.middleBannerTextContainer h2 {
+  padding-bottom: .5em;
+}
+
+.middleBannerTextContainer img {
+  background: var(--accent-color);
+}
+
 
 /********************
 Review Cards
