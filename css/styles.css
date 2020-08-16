@@ -88,14 +88,12 @@ ul {
 }
 
 .btn {
-  padding: 3px 5px 0px;
+  padding: 7px;
   border: none;
   outline: none;
   border-radius: 25px;
-  font-size: 15px;
-  width: 25px;
-  height: 25px;
-  background-color: var(--main-color);
+  font-size: 12px;
+  background-color: #333;
   color: #fff;
   transition: background-color 0.5s;
 }
@@ -103,7 +101,7 @@ ul {
 .btn:hover {
   background-color: #fff;
   cursor: pointer;
-  color: var(--accent-color);
+  color: var(--main-color);
 }
 
 .loginBtn {
@@ -326,6 +324,7 @@ Main Section
 
 .threeImagesImg img {
   width: 100%;
+  border-bottom: 2px solid var(--main-color);
 }
 .main-section {
   position: relative;
@@ -338,14 +337,13 @@ Main Section
     width: 100%;
     height: auto;
     padding: 10px 10px;
-    background-color: var(--accent-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .addTo-cartBtn-Container span {
-  color: #fff;
+  color: #333;
 }
 
 .btn-addToCart {
@@ -513,6 +511,7 @@ Main Section
 
 .bike-img-container {
   background-color: #fff;
+  border-bottom: 2px solid var(--accent-color);
   display: flex;
   flex-direction: column;
 }
@@ -523,7 +522,7 @@ Main Section
 }
 
 .bike-img-container p {
-  background-color: var(--main-color);
+  color: #333;
   padding:10px;
 }
 
@@ -532,8 +531,8 @@ Main Section
 }
 
 .bike-img-container h3 {
-  background-color: var(--main-color);
-  color: #fff;
+  color: #333;
+  border-bottom: 2px solid var(--main-color);
   padding: 0px 10px 10px 10px;
 }
 
@@ -559,22 +558,30 @@ Middle Banner
   width: 100vw;
   height: 85px;
   justify-content: center;
-  text-align: center;
   margin-top: -80px;
   color: #fff;
 }
 
-.middleBanner p {
+.bannerText {
+  position: absolute;
+  left: 15vw;
+}
+
+.bannertext p {
+  position: absolute;
   width: 475px;
 }
 
-.middleBannerTextContainer h2 {
+.bannertext h2 {
   padding-bottom: .5em;
 }
 
 .middleBannerTextContainer img {
-  width: 270px;
-  height: 270px;
+  position: absolute;
+  top: -20vh;
+  left: 15vw;
+  width: 370px;
+  height: 370px;
 }
 
 
@@ -597,6 +604,7 @@ Review Cards
   justify-content: center;
   align-items: center;
   background: #fff;
+  border-bottom: 2px solid var(--main-color);
 }
 
 .quotesImg {
