@@ -60,7 +60,7 @@
           <h3 class="item-price">$599</h3>
           <div class="addTo-cartBtn-Container">
           <span>Add to cart</span>
-            <button class="btn btn-addToCart">&times;</button>
+            <button class="btn btn-addToCart">BUY NOW</button>
           </div>
         </div>
         <div class="bike-img-container bike-img-container2">
@@ -72,7 +72,7 @@
           <h3 class="item-price">$799</h3>
           <div class="addTo-cartBtn-Container">
           <span>Add to cart</span>
-            <button class="btn btn-addToCart">&times;</button>
+            <button class="btn btn-addToCart">BUY NOW</button>
           </div>
         </div>
         <div class="bike-img-container bike-img-container3">
@@ -84,7 +84,7 @@
           <h3 class="item-price">$899</h3>
           <div class="addTo-cartBtn-Container">
           <span>Add to cart</span>
-            <button class="btn btn-addToCart">&times;</button>
+            <button class="btn btn-addToCart">BUY NOW</button>
           </div>
         </div>
 
@@ -97,7 +97,7 @@
           <h3 class="item-price">$999</h3>
           <div class="addTo-cartBtn-Container">
           <span>Add to cart</span>
-            <button class="btn btn-addToCart">&times;</button>
+            <button class="btn btn-addToCart">BUY NOW</button>
           </div>
         </div>
 
@@ -110,7 +110,7 @@
           <h3 class="item-price">$1299</h3>
           <div class="addTo-cartBtn-Container">
           <span>Add to cart</span>
-            <button class="btn btn-addToCart">&times;</button>
+            <button class="btn btn-addToCart">BUY NOW</button>
           </div>
         </div>
 
@@ -123,7 +123,7 @@
           <h3 class="item-price">$1999</h3>
           <div class="addTo-cartBtn-Container">
           <span>Add to cart</span>
-            <button class="btn btn-addToCart">&times;</button>
+            <button class="btn btn-addToCart">BUY NOW</button>
           </div>
         </div>
 
@@ -136,7 +136,7 @@
           <h3 class="item-price">$2499</h3>
           <div class="addTo-cartBtn-Container">
           <span>Add to cart</span>
-            <button class="btn btn-addToCart">&times;</button>
+            <button class="btn btn-addToCart">BUY NOW</button>
           </div>
         </div>
 
@@ -149,7 +149,7 @@
           <h3 class="item-price">$3999</h3>
           <div class="addTo-cartBtn-Container">
           <span>Add to cart</span>
-            <button class="btn btn-addToCart">&times;</button>
+            <button class="btn btn-addToCart">BUY NOW</button>
           </div>
         </div>
         <!--<div class="bike-img-container bike-img-container9">
