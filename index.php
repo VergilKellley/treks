@@ -19,8 +19,8 @@
       </div>
       <!--https://www.youtube.com/watch?v=3owx2vJHkv4-->
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fe2001" fill-opacity="1" d="M0,192L60,170.7C120,149,240,107,360,80C480,53,600,43,720,74.7C840,107,960,181,1080,176C1200,171,1320,85,1380,42.7L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
-      <div class="circle"></div>
-      <div class="circle2"></div>
+      <!--<div class="circle"></div>
+      <div class="circle2"></div>-->
     </section>
 
     
