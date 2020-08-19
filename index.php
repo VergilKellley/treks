@@ -14,7 +14,7 @@
       </div>
       <div id="bikes-hero-text">
         <h2>bikes for everyone</h2>
-        <p>Men Women Children Sport or Leisure!</p>
+        <p>Men Women Children Sport or Leisure</p>
         <a href="#bikes">Search Bikes</a>
       </div>
       <!--https://www.youtube.com/watch?v=3owx2vJHkv4-->
