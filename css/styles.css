@@ -9,7 +9,10 @@
   --main-color: #2001fe;
   --accent-color: #fe2001;
   --main-background-color: #ededed;
-  --mobile-font-h2: 
+  --h1-font: sans-serif;
+  --logo-font: 'Quicksand', sans-serif;
+  --h2-font: 'Montserrat', sans-serif;
+  --p-font: aria'Lato', sans-serif;
 }
 
 body {
@@ -27,9 +30,10 @@ NAVAGATION
 #nav-logo {
   position: relative;
   left: 7%;
-  font-size: 2.3vw;
+  font-size: 2vw;
   text-transform: uppercase;
   font-weight: bolder;
+  font-family: var(--logo-font);
   color: var(--main-color);
   text-decoration: none;
   font-style: italic;
@@ -62,6 +66,7 @@ ul {
   text-transform: uppercase;
   display: block;
   font-size: 1.2vw;
+  font-family: var(--p-font);
   padding: 10px;
   color: #fff;
   margin-left: 9vw;
@@ -110,6 +115,7 @@ ul {
   outline: none;
   border-radius: 3px;
   font-size: 15px;
+  font-family: var(--p-font);
   height: 25px;
   background-color: var(--main-color);
   color: #fff;
@@ -137,6 +143,7 @@ ul {
 #login-SignUp-Inputs form p {
   display: inline;
   font-size: 1.3vw;
+  font-family: var(--p-font) ;
   padding-top: 5px;
 }
 
@@ -162,7 +169,8 @@ HERO
 #t-recs-waterMark {
   position: absolute;
   display: block;
-  font-size: 27.5vw;
+  font-size: 26.5vw;
+  font-family: sans-serifvar(--h2-font);
   width: 100vw;
   color: rgba(0, 0, 0, .03);
   top: 20%;
@@ -172,15 +180,6 @@ HERO
 #hero-img-text-container {
   margin-top: 70px;
 }
-
-/*.hero-overlay {
-  position: absolute;
-  background-color: rgba(0, 0, 0, .5);
-  z-index: 3;
-  width: 100%;
-  height: 100%;
-  border-radius: 30% 10% 30%;
-}*/
 
 .circle {
   position: absolute;
@@ -246,13 +245,14 @@ HERO
 #bikes-hero-text h2 {
   font-size: 3.5vw;
   font-weight: bolder;
+  font-family: var(--h2-font);
   color: #fff;
   text-transform: uppercase;
 }
 
 #bikes-hero-text p {
   font-size: 1.5vw;
-  font-style: italic;
+  font-family: var(--p-font);
   font-weight: 600;
   color: #fff;
   padding-top: 20px;
@@ -264,6 +264,7 @@ HERO
   text-decoration: none;
   margin-top: 1.5rem;
   font-size: 1.2rem;
+  font-family: var(--p-font);
   padding: 5px 10px;
   background: #fff;
   border-radius: 50px;
@@ -291,12 +292,14 @@ Main Section
 
 .comingSoonText .comingSoon {
   font-size: 1.5vw;
+  font-family: var(--h2-font);
   margin-top: 200px;
   padding-bottom: 20px;
 }
 
 .featuredItemsText {
   font-size: 1.5vw;
+  font-family: var(--h2-font);
   margin-top: 100px;
   padding-bottom: 20px;
 }
@@ -321,6 +324,7 @@ Main Section
 
 .threeImagesImg {
   text-align: center;
+  font-family: var(--h2-font);
 }
 
 .threeImagesImg img {
@@ -345,6 +349,7 @@ Main Section
 
 .addTo-cartBtn-Container span {
   color: #333;
+  font-family: var(--p-font);
 }
 
 .btn-addToCart {
@@ -470,45 +475,10 @@ Main Section
   grid-area: bike-row-header-p-text;
   text-align: left;
   font-size: 18px;
-  font-family: "Roboto, ariel, helvetica, sans-serif";
+  font-family: var(--p-font);
   color: #fff;
   line-height: 1.4;
 }
-
-/*
-
-.bike-img-container1 {
-  grid-area: bike-img-container1;
-}
-
-.bike-img-container2 {
-  grid-area: bike-img-container2;
-}
-.bike-img-container3 {
-  grid-area: bike-img-container3;
-}
-.bike-img-container4 {
-  grid-area: bike-img-container4;
-}
-.bike-img-container5 {
-  grid-area: bike-img-container5;
-}
-.bike-img-container6 {
-  grid-area: bike-img-container6;
-}
-
-.bike-img-container7 {
-    grid-area: bike-img-container7;
-  }
-
-  .bike-img-container8 {
-    grid-area: bike-img-container8;
-  }
-
-  .bike-img-container9 {
-    grid-area: bike-img-container9;
-  }
-  */
 
 .bike-img-container {
   background-color: #fff;
@@ -524,15 +494,18 @@ Main Section
 
 .bike-img-container p {
   color: #333;
+  font-family: var(--p-font);
   padding:10px;
 }
 
 .bike-img-container h2 {
+  font-family: var(--h2-font);
   padding: 10px;
 }
 
 .bike-img-container h3 {
   color: #333;
+  font-family: var(--p-font);
   padding: 0px 10px 10px 10px;
 }
 
@@ -570,10 +543,12 @@ Middle Banner
 .bannertext p {
   position: absolute;
   width: 475px;
+  font-family: var(--p-font);
 }
 
 .bannertext h2 {
   padding-bottom: .5em;
+  font-family: var(--h2-font);
 }
 
 .middleBannerTextContainer img {
@@ -631,6 +606,11 @@ Review Cards
 .threeReviews p {
   text-align: center;
   padding: 10px;
+  font-family: var(--p-font);
+}
+
+.threeReviews h3 {
+  font-family: var(--p-font);
 }
 /******************
 SIGNUP PAGE
