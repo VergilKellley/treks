@@ -222,7 +222,7 @@ HERO
 
 .left-header-images-container{
   position: absolute;
-  right: 12%;
+  right: 6%;
   bottom: 0;
   z-index: 5;
 }
@@ -240,6 +240,7 @@ HERO
   transform: translateY(-50%);
   z-index: 6;
   color: #fff;
+  font-family: sans-serif;
 }
 
 #bikes-hero-text h2 {
