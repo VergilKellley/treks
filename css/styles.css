@@ -170,7 +170,7 @@ HERO
   position: absolute;
   display: block;
   font-size: 26.5vw;
-  font-family: sans-serifvar(--h2-font);
+  font-family: var(--logo-font);
   width: 100vw;
   color: rgba(0, 0, 0, .03);
   top: 20%;
