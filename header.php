@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/styles.css" />
-    <!--<script src="js/store.js" async></script>-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Quicksand:wght@600&family=Russo+One&display=swap" rel="stylesheet">
+
     <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
