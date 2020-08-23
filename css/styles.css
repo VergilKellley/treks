@@ -311,6 +311,14 @@ Main Section
   border-bottom: 2px solid var(--main-color);
 }
 
+#threeImagesBackground {
+  width: 75vw;
+  height: auto;
+  background-color: #333;
+  margin: 5rem auto;
+  padding-bottom: .01rem;
+}
+
 
 #threeImagesContainer {
   position: relative;
@@ -329,6 +337,11 @@ Main Section
 
 .threeImagesImg img {
   width: 100%;
+}
+
+.threeImagesImg h2 {
+  color: #fff;
+  padding-top: 20px;
 }
 
 .main-section {
