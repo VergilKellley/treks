@@ -29,6 +29,7 @@
         <div class='comingSoonUnderline'></div>
       </div>
 
+      <div id='threeImagesBackground'>
       <div id='threeImagesContainer'>
          <div class='threeImagesImg'>
           <img src="images/bike30.jpg" alt="mountain bike">
@@ -42,6 +43,7 @@
           <img src="images/bike32.jpg" alt="mountain bike">
           <h2>Smooth Rider</h2>
         </div>
+      </div>
       </div>
   
       <div class='comingSoonText'>
