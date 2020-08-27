@@ -266,7 +266,7 @@ HERO
   font-size: 1.2rem;
   font-family: var(--p-font);
   padding: 5px 10px;
-  background: #fff;
+  background: var(--main-color);
   border-radius: 50px;
   color: #333;
   transition: background-color .5s;
@@ -274,8 +274,8 @@ HERO
 
 #bikes-hero-text a:hover {
   cursor: pointer;
-  background-color: var(--main-color);
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 /********************
