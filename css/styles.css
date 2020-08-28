@@ -268,14 +268,14 @@ HERO
   padding: 5px 10px;
   background: var(--main-color);
   border-radius: 50px;
-  color: #333;
+  color: #fff;
   transition: background-color .5s;
 }
 
 #bikes-hero-text a:hover {
   cursor: pointer;
   background-color: #fff;
-  color: #000;
+  color: var(--main-color);
 }
 
 /********************
